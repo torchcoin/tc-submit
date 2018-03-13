@@ -10,7 +10,7 @@ def cli(git_url, dataset_url):
 
     \b
     Submit project from GitHub:
-        tcsubmit https://github.com/nick11roberts/PGCnet/
+        tcsubmit [git_clone_url] [dataset_url]
     """
 
     click.echo("Validating repository against submission guidelines...")
