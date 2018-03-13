@@ -1,0 +1,8 @@
+README.md
+tcsubmit.py
+tcsubmit.egg-info/PKG-INFO
+tcsubmit.egg-info/SOURCES.txt
+tcsubmit.egg-info/dependency_links.txt
+tcsubmit.egg-info/entry_points.txt
+tcsubmit.egg-info/requires.txt
+tcsubmit.egg-info/top_level.txt
