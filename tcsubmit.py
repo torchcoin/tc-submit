@@ -3,8 +3,8 @@ import emoji
 import numpy as np
 
 @click.command()
-@click.argument('git_url')
-@click.argument('dataset_url')
+@click.option('--git_url', prompt='Git clone URL')
+@click.option('--dataset_url', prompt='Dataset URL')
 def cli(git_url, dataset_url):
     """Script used to submit PyTorch models to the blockchain for training.
 
@@ -22,7 +22,7 @@ def cli(git_url, dataset_url):
         click.echo(
             """
             Repository does not meet specifications, see
-            https://github.com/nick11roberts/torch-coin
+            https://github.com/torchcoin
             for more information and formatting instructions.
             """)
         exit()
